@@ -64,4 +64,5 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4")
     implementation("androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("io.github.jan-tennert.supabase:gotrue-kt:2.6.0")
 }
