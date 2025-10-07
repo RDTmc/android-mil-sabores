@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MilSabores</string>
+    <string name="supabase_url" translatable="false">https://hivocvfqnxiagbvnyyuw.supabase.co</string>
+    <string name="supabase_anon_key" translatable="false">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhpdm9jdmZxbnhpYWdidm55eXV3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk3NTU4MDEsImV4cCI6MjA3NTMzMTgwMX0.AW5LXZ_N7T9o5qFMQSpewp_OYVLXIqPlc9rt4s5SYeM</string>
 </resources>

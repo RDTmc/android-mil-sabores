@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    kotlin("plugin.serialization") version "1.9.20"
 }
 
 android {
@@ -64,4 +65,19 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4")
     implementation("androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
+    // Supabase - Versiones específicas
+    val supabaseVersion = "3.0.2"
+    val ktorVersion = "3.0.1"
+
+    implementation(platform("io.github.jan-tennert.supabase:bom:$supabaseVersion"))
+    implementation("io.github.jan-tennert.supabase:postgrest-kt")
+    implementation("io.github.jan-tennert.supabase:gotrue-kt")
+    implementation("io.github.jan-tennert.supabase:realtime-kt")
+
+    // Motor Ktor para Android
+    implementation("io.ktor:ktor-client-android:$ktorVersion")
+    implementation("io.ktor:ktor-client-core:$ktorVersion")
+    implementation("io.ktor:ktor-utils:$ktorVersion")
+
 }
